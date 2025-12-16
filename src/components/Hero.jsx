@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import heroimage from '../assets/hero.avif'
+import heroimage from '../assets/coffe.jpeg'
 
 const Hero = () => {
     return (
-        <section id="home" className="relative h-screen flex items-center justify-center">
+        <section id="home" className="relative flex items-center justify-center h-screen">
 
             {/* Background Image */}
             <div
@@ -19,24 +19,24 @@ const Hero = () => {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 text-center text-white px-4">
-                <h1 className="text-5xl md:text-7xl font-bold mb-4 font-serif tracking-wide">
+            <div className="relative z-10 px-4 text-center text-white">
+                <h1 className="mb-4 font-serif text-5xl font-bold tracking-wide md:text-7xl">
                     Coffee Buddy
                 </h1>
-                <p className="text-xl md:text-2xl mb-8 font-light text-gray-200">
+                <p className="mb-8 text-xl font-light text-gray-200 md:text-2xl">
                     Brewed Fresh Daily. Tasted by Heart.
                 </p>
 
                 {/* Call to Action Buttons */}
-                <div className="flex flex-col md:flex-row justify-center gap-4">
+                <div className="flex flex-col justify-center gap-4 md:flex-row">
                     <Link to="/menu"
-                        className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-full transition duration-300 transform hover:scale-105"
+                        className="px-8 py-3 font-semibold text-white transition duration-300 transform rounded-full bg-amber-600 hover:bg-amber-700 hover:scale-105"
                     >
                         View Menu
                     </Link>
                     <a
                         href="#contact"
-                        className="px-8 py-3 border-2 border-white hover:bg-white hover:text-black text-white font-semibold rounded-full transition duration-300"
+                        className="px-8 py-3 font-semibold text-white transition duration-300 border-2 border-white rounded-full hover:bg-white hover:text-black"
                     >
                         Order Now
                     </a>
