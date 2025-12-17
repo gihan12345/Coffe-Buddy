@@ -5,6 +5,7 @@ import Home from '../src/pages/HomePage';
 import Menu from '../src/pages/MenuPage';
 import About from './pages/About';
 import Contact from '../src/pages/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
