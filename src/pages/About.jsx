@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import coffe2 from '../assets/coffe2.avif'
 import coffe3 from '../assets/coffe3.jpeg'
+import about from '../assets/about.avif'
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
                 <div className="absolute inset-0 overflow-hidden opacity-40">
                     {/* Background Image for Header */}
                     <img
-                        src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80"
+                        src={about}
                         alt="Coffee Background"
                         className="object-cover w-full h-full"
                     />
