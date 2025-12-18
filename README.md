@@ -32,7 +32,7 @@ Follow these steps to run the project locally.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/coffee-buddy.git](https://github.com/your-username/coffee-buddy.git)
+git clone [https://github.com/gihan12345/coffee-buddy.git](https://github.com/your-username/coffee-buddy.git)
 cd coffee-buddy
 
 ###File structure
