@@ -23,9 +23,11 @@ const Navbar = () => {
                         <Link to="/menu" className="transition duration-300 hover:text-amber-200">Menu</Link>
                         <Link to="/services" className="transition duration-300 hover:text-amber-200">Services</Link>
                         <Link to="/gallery" className="transition duration-300 hover:text-amber-200">Gallery</Link>
-                        <a href="#contact" className="px-4 py-2 transition duration-300 rounded-md bg-amber-700 hover:bg-amber-600">
+                        <Link to="/contact"
+                            className="px-4 py-2 font-semibold text-white transition duration-300 rounded-md bg-amber-800 hover:bg-amber-700"
+                        >
                             Contact
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button (Hamburger) */}
