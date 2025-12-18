@@ -34,12 +34,11 @@ const Hero = () => {
                     >
                         View Menu
                     </Link>
-                    <a
-                        href="#contact"
+                    <Link to="/contact"
                         className="px-8 py-3 font-semibold text-white transition duration-300 border-2 border-white rounded-full hover:bg-white hover:text-black"
                     >
                         Order Now
-                    </a>
+                    </Link>
                 </div>
             </div>
 
