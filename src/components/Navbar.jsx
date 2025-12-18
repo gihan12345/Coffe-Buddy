@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link to="/about" className="transition duration-300 hover:text-amber-200">About</Link>
                         <Link to="/menu" className="transition duration-300 hover:text-amber-200">Menu</Link>
                         <Link to="/services" className="transition duration-300 hover:text-amber-200">Services</Link>
-                        <a href="#gallery" className="transition duration-300 hover:text-amber-200">Gallery</a>
+                        <Link to="/gallery" className="transition duration-300 hover:text-amber-200">Gallery</Link>
                         <a href="#contact" className="px-4 py-2 transition duration-300 rounded-md bg-amber-700 hover:bg-amber-600">
                             Contact
                         </a>

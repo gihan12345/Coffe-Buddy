@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import coffe2 from '../assets/coffe2.avif'
-import coffe3 from '../assets/coffe3.jpeg'
+import about2 from '../assets/about2.avif'
+import about3 from '../assets/about3.jpeg'
+import about4 from '../assets/about4.avif'
 import about from '../assets/about.avif'
 
 const About = () => {
@@ -49,7 +50,7 @@ const About = () => {
                     {/* Image */}
                     <div className="flex-1">
                         <img
-                            src={coffe2}
+                            src={about2}
                             className="w-full h-auto rounded-lg shadow-xl"
                         />
                     </div>
@@ -62,7 +63,7 @@ const About = () => {
                     {/* Image */}
                     <div className="flex-1">
                         <img
-                            src={coffe3}
+                            src={about3}
                             alt="Roasting coffee beans"
                             className="w-full h-auto rounded-lg shadow-xl"
                         />
@@ -104,8 +105,8 @@ const About = () => {
                     {/* Image */}
                     <div className="flex-1">
                         <img
-                            src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&q=80"
-                            alt="People enjoying coffee"
+                            src={about4}
+                            alt="Community gathering in cafe"
                             className="w-full h-auto rounded-lg shadow-xl"
                         />
                     </div>
