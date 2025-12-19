@@ -3,7 +3,7 @@
 **Coffee Buddy** is a modern, responsive coffee shop website built with **React (Vite)** and **Tailwind CSS**. It features a cozy aesthetic, a functional gallery, direct WhatsApp table reservations, and an email contact form.
 
 ## 🚀 Live Demo
-[Insert Link to Live Demo Here] 
+[(https://drive.google.com/file/d/1mX4gSD80zCQTV7KusBfcG6iYXHTq5gC1/view?usp=sharing)] 
 ## ✨ Key Features
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
